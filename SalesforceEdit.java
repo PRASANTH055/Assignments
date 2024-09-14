@@ -21,7 +21,7 @@ public class SalesforceEdit {
 		driver.findElement(By.xpath("//p[text()='Sales']")).click();
 		WebElement element = driver.findElement(By.xpath("//a[@title='Opportunities']"));
 		driver.executeScript("arguments[0].click()", element);
-		driver.findElement(By.xpath("//input[@name='Opportunity-search-input']")).sendKeys("Prasanth");
+		driver.findElement(By.xpath("//input[@name='Opportunity-search-input']")).sendKeys("Salesforece Automation by Prasanth");
 		Thread.sleep(5000);
 		WebElement element1 = driver.findElement(By.xpath("//div[@class='forceVirtualActionMarker forceVirtualAction']/a[@role='button']"));
 		driver.executeScript("arguments[0].click();",element1);
