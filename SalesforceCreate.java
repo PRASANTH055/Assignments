@@ -22,7 +22,7 @@ public class SalesforceCreate {
 		WebElement element = driver.findElement(By.xpath("//a[@title='Opportunities']"));
 		driver.executeScript("arguments[0].click()",element);
 		driver.findElement(By.xpath("//div[@title='New']")).click();
-		driver.findElement(By.xpath("//input[@name='Name']")).sendKeys("Prasanth");
+		driver.findElement(By.xpath("//input[@name='Name']")).sendKeys("Salesforce Automation by Prasanth");
 		driver.findElement(By.xpath("//input[@name='Amount']")).sendKeys("75000");
 		driver.findElement(By.xpath("//input[@name='CloseDate']")).click();
 		driver.findElement(By.xpath("//input[@name='CloseDate']")).sendKeys("13/09/2024");
